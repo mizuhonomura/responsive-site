@@ -43,7 +43,11 @@ a:hover {
 ------------------------------------------------------------*/
 @media (max-width: 768px) {
   header .mainvisual {
-    max-width: 100%; } }
+    background-image: url(../images/img_header.jpg);
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center; } }
 .main {
   width: 60%;
   margin: 0 auto;
@@ -134,8 +138,11 @@ p {
   /* Header
   ------------------------------------------------------------*/
   header .mainvisual {
-    max-width: 100%;
-    height: auto; }
+    background-image: url(../images/img_header.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center; }
 
   #howtomake .container {
     -webkit-flex-direction: row;
@@ -144,6 +151,7 @@ p {
   #howtomake .skill-box {
     margin: 0 10px; } }
 #footer a .button:hover {
-  background-color: #cc2900; }
+  background-color: #cc2900;
+  display: block; }
 
 /*# sourceMappingURL=style.css.map */
